@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	
+	int a,b,c,d,e;
+	int sum=0;
+	
+clrscr();
+	printf("enter value A = :");
+	scanf("%d",&a);
+		printf("enter value B = :");
+	scanf("%d",&b);
+		printf("enter value C = :");
+	scanf("%d",&c);
+		printf("enter value D = :");
+	scanf("%d",&d);
+		printf("enter value E = :");
+	scanf("%d",&e);
+	
+	
+	sum=a+b+c+d+e;
+
+printf("sum %d",sum);
+getch();
+}
